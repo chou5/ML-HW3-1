@@ -1,0 +1,7 @@
+This program PreProStr_ghmm.py is used to apply Generalized Hidden Markov Model (GHMM) on the prediction of protein secondary structure.
+Input: A test.fasta file, which is used to test the accuracy of the prediction
+Output: The prediction of protein secondary structure from the input file 
+        The accuracy of every prediction
+        The average accuracy for the prediction
+Sample Usage: python PreProStr_ghmm.py -i test.fasta -o output.txt
+ 
